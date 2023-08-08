@@ -10,6 +10,7 @@
 
 /* Set container and phone */
 .phone {
+  margin-bottom: 100px;
   padding: 0;
   background: url('../images/header.png') no-repeat center/cover;
   height: 750px;
@@ -29,6 +30,7 @@
 /* End set container and phone */
 
 /* Header menu */
+
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -117,7 +119,6 @@
 .content__button a {
   min-width: 100%;
   min-height: 100%;
-  display: block;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -155,6 +156,92 @@
   background-color: rgba(218, 217, 217, 0.3);
 }
 /* End header bottom */
-/* Section main */
-
+/* Section about */
+/* About top */
+.title {
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #061e37;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.subtitle h4 {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #b0bec5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text {
+  margin-bottom: 100px;
+}
+.text p{
+  width: 550px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #b0bec5;
+  text-align: center;
+  margin: 0 auto;
+}
+/* End about top */
+/* About mid */
+.about__mid {
+  margin-bottom: 100px;
+}
+.row__mid {
+  display: flex;
+  margin-bottom: 75px;
+}
+.mid__icon {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.mid__title {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #061e37;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.mid__text {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #78909c;
+  text-align: center;
+}
+.mid__button {
+  width: 150px;
+  height: 55px;
+  background-color: #1de9b6;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+  border-radius: 5px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s;
+}
+.mid__button a {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.mid__button:hover {
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.85);
+}
+/* End about mid */
+/* About bottom */
+.bottom__row {
+  display: flex;
+}
+/* End about bottom */
 /* End section main */
