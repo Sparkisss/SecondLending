@@ -1,5 +1,12 @@
-/* @media (max-width:1440px) {
-  .container {
-    min-width: 970px;
-  }
-} */
+@media (max-width:1370px) {
+  .cmt__title {
+  font-size: 2px;
+  line-height: 20px;
+
+}
+.cmt__text {
+  font-size: 2px;
+  line-height: 20px;
+}
+
+} 
