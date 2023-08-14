@@ -30,6 +30,9 @@
     min-width: 250px;
     min-height: 200px;
   }
+  .header__main .main__content {
+    padding-right: 0;
+  }
 } 
 
 @media (max-width:960px) {
@@ -74,9 +77,199 @@
   .content__title h2 {
     font-size: 2rem;
   }
-
-
+  .header .header__wrapper .header__menu {
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+  }
+  .header__main .main__content .content__text {
+    font-size: 0.9375rem;
+    line-height: 2.1875rem;
+    margin-bottom: 35px;
+  }
+  .about__bottom .bottom__row .bottom__item {
+    height: 6.25rem;
+  }
+  .about__bottom .bottom__row .bottom__item .item__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .about__bottom .bottom__row .bottom__item .content__item .item__numbers {
+    font-size: 0.875rem;
+  }
+  .about__bottom .bottom__row .bottom__item .content__item .item__text{
+    font-size: 0.875rem;
+  }
+  .title h4,
+  .title h3{
+    font-size: 2.1875rem;
+  }
+  .wrapper .phone,
+  .wrapper .phone__img {
+    height: 43.75rem;
+  }
 }
+@media (max-width:710px) {
+  .wrapper .phone {
+    margin-bottom: 4.375rem;
+  }
+  .comment__content .comment__cmt {
+    display: none;
+  }
+  .main .about {
+    margin-bottom: 50px;
+  }
+  .comment .comment__wrapper-first,
+  .comment .comment__wrapper-second {
+    height: 18.75rem;
+  }
+  .comment__content .comment__about {
+    margin-right: 0px;
+  }
+  .comment__about .comment__title {
+    margin-bottom: 10px;
+  }
+  .comment__about .comment__title h4{
+    font-size: 1.75rem;
+  }
+  .comment__about .comment__text {
+    margin-bottom: 40px;
+  }
+    .content__title h2 {
+    font-size: 1.75rem;
+  }
+  .title h4,
+  .title h3{
+    font-size: 1.375rem;
+  }
+  .container .title {
+    margin-bottom: 15px;
+  }
+  .main__content .content__title {
+    margin-bottom: 0;
+  }
+  .header__main .main__content .content__text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 30px;
+  }
+  .wrapper .phone,
+  .wrapper .phone__img {
+    height: 37.5rem;
+  }
+}
+@media (max-width:580px) {
+  .wrapper .phone,
+  .wrapper .phone__img {
+    height: 34.375rem;
+  }
+  .content__title h2 {
+    font-size: 1.375rem;
+    line-height: 2.1875rem;
+  }
+  .header__main .main__content .content__text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-bottom: 20px;
+  }
+  .main__video {
+    min-width: 100px;
+    min-height: 150px;
+  }
+  .main__content .content__button{
+    width: 100px;
+    height: 40px;
+  }
+  .one a,
+  .two a {
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+    .about__bottom .bottom__row {
+    flex-direction: column;
+  }
+  .about__bottom .bottom__row .bottom__item {
+    height: 3.75rem;
+  }
+}
+
+@media (max-width:480px) {
+  .wrapper .phone {
+    margin-bottom: 2.5rem;
+  }
+  .row__mid {
+    flex-direction: column;
+  }
+  .title h4,
+  .title h3{
+    font-size: 1.25rem;
+  }
+  .about__top .subtitle h4 {
+    font-size: 1.125rem;
+  }
+  .about__top .text p {
+    font-size: 0.75rem;
+  }
+  .mid__icon img {
+    max-height: 45px;
+  }
+  .mid__title h5 {
+    font-size: 1rem;
+  }
+  .mid__text p {
+    font-size: 0.625rem;
+  }
+  .about__mid .mid__button{
+    width: 100px;
+    height: 40px;
+  }
+  .about__mid .mid__button a {
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+  .container .row__mid {
+    margin-bottom: 35px;
+  }
+  .container .about__mid {
+    margin-bottom: 50px;
+  }
+    .comment__about .comment__title h4{
+    font-size: 1.375rem;
+  }
+  .comment__about .comment__text {
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+  .comment__about .content__button {
+    width: 100px;
+    height: 40px;
+  }
+}
+@media (max-width:440px) {
+  .menu__logo .logo {
+    display: none;
+  }
+}
+@media (max-width:375px) {
+  .content__title h2 {
+    font-size: 1.125rem;
+    line-height: 35px;
+  }
+  .header__main .main__content .content__text {
+    font-size: 0.6875rem;
+    line-height: 0.875rem;
+    margin-bottom: 15px;
+  }
+  .main__video {
+    min-width: 100px;
+    min-height: 120px;
+  }
+  .wrapper .phone,
+  .wrapper .phone__img {
+    height: 28.125rem;
+  }
+}
+
 
 
 @keyframes burgerAnimation {
