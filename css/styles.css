@@ -334,6 +334,7 @@
   color: #061e37;
 }
 .middle__top-element {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   right: 3%;
@@ -471,6 +472,7 @@
 
 /* Burger menu */
   .burger {
+    cursor: pointer;
     display: none;
     position: relative;
     z-index: 5;
@@ -525,6 +527,8 @@
   .close {
     display: none !important;
   }
+
+  
   .middle__info {
     display: none;
   }
